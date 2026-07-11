@@ -16,6 +16,7 @@ to the Court of Justice of the European Union, 1961–2017.
 | `figure1_courts_map.png` | Court-level referral map (peak vs. non-peak courts) |
 | `figure2_referral_choropleth.png` | NUTS2-level choropleth of regional referral intensity |
 | `figureA2_courts_by_period.png` | Figure 1 broken down into three sub-periods |
+| `requirements.txt` | Python package dependencies |
 
 ## Data
 
@@ -27,16 +28,15 @@ the following files in the working directory:
 - `NUTS_RG_20M_2013_3035.gpkg` — Eurostat NUTS2 (2013) region boundaries
   ([Eurostat GISCO](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics))
 
-## Requirements
+## Setup
 
 ```
-geopandas
-pandas
-numpy
-matplotlib
-shapely
-mapclassify
+pip install -r requirements.txt
 ```
+
+See `requirements.txt` for the full package list (geopandas, pandas, numpy,
+matplotlib, shapely, mapclassify). If running in Google Colab, most of these are
+already installed; `geopandas` and `mapclassify` typically still need the line above.
 
 ## Notes on methodology
 
