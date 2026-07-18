@@ -20,8 +20,7 @@ to the Court of Justice of the European Union, 1961–2017.
 
 ## Data
 
-This repository does not redistribute the underlying data. To run the notebook, place
-the following files in the working directory:
+The underlying data is available on this repository. There are two files: 
 
 - `GEOCOURT_NUTS_2.csv` — court-level referral data available from the [GEOCOURT
   Dataset's](https://euthority.eu/?page_id=795) original distribution
