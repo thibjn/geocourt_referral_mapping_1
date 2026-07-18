@@ -23,8 +23,8 @@ to the Court of Justice of the European Union, 1961–2017.
 This repository does not redistribute the underlying data. To run the notebook, place
 the following files in the working directory:
 
-- `GEOCOURT_NUTS_2.csv` — court-level referral data (available from the GEOCOURT
-  Dataset's original distribution)
+- `GEOCOURT_NUTS_2.csv` — court-level referral data available from the [GEOCOURT
+  Dataset's](https://euthority.eu/?page_id=795) original distribution
 - `NUTS_RG_20M_2013_3035.gpkg` — Eurostat NUTS2 (2013) region boundaries
   ([Eurostat GISCO](https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics))
 
@@ -47,7 +47,7 @@ full in the notebook itself:
   since the same physical court is recorded under multiple name variants across its
   history.
 - **Referral volume** is encoded using four discrete size tiers (matching the paper's
-  own legend breakpoints), rather than a continuous or log-transformed scale.
+  own legend breakpoints).
 - **Regional referral intensity** (Figure 2) is classified using Natural Breaks
   rather than a linear scale, given the strongly skewed distribution of referral counts
   across regions, and separates confirmed zero-referral regions from the colour ramp
