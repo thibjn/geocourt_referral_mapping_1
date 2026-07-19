@@ -51,7 +51,4 @@ full in the notebook itself:
   rather than a linear scale, given the strongly skewed distribution of referral counts
   across regions, and separates confirmed zero-referral regions from the colour ramp
   used for regions with at least one referral.
-- **Court tier** is limited to the binary peak/non-peak distinction available in the
-  released data; a proxy for First/Second Instance courts based on the CJEU's
-  procedural outcome variable was tested and found not to track the referring court's
-  domestic hierarchy, so it was not used.
+- **Court tier** distinguishes First Instance, Second Instance (Court of Appeal), and Peak Court, using the two binary flags available in the released data (peak_court and int_court). Where the two flags conflict (157 courts flagged as both peak and intermediate — chiefly UK/Scottish courts and administrative supreme courts that are apex-level for only part of their function), peak status takes priority, consistent with the paper's footnote 4 definition of peak court as an institutional category (supreme or constitutional court) rather than a per-case designation.
